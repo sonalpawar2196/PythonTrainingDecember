@@ -1,3 +1,4 @@
+
 thisList =  ['sonal','priya','abc','pqr']
 print(thisList)
 print(thisList[1])
@@ -36,16 +37,18 @@ print(thisList)
 #The del keyword removes the specified index:
 del thisList[0]
 print(thisList)
-
+# ------------------------------------------------------------------
 # clear() make entire list empty 
-thisList.clear()
+thisList[:]
 print(thisList)
 
 # coping one list to another
 
 fruites = ["apple","banana","grapes","orange","apple"]
-x = fruites.copy()
+x = fruites
 print(x)
+
+#---------------------------------------------------------------------
 
 # count() function returns how many times perticular item occure in the list
 countAPPLE = fruites.count("apple")
