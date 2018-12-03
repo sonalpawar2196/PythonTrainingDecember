@@ -95,4 +95,8 @@ print(x)
 
 
 # fromkeys()  Returns a dictionary with the specified keys and values
-keys = ('name', '')
+keys = {'a','e','i','o','u'}
+values = 'vowel'
+vowels = dict.fromkeys(keys,values)
+
+print(vowels)
